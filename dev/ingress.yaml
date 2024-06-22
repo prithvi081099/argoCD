@@ -6,7 +6,6 @@ metadata:
     # use the shared ingress-nginx
     kubernetes.io/ingress.class: "gce"
     nginx.ingress.kubernetes.io/proxy-body-size: 16m
-    argocd.argoproj.io/sync-wave: "5"
 spec:
   rules:
   - http:
